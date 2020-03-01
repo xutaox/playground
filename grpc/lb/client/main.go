@@ -6,7 +6,7 @@ import (
 	"go.etcd.io/etcd/clientv3/naming"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
-	helloworld "playground/grpc/pb"
+	helloworld "playground/grpc/lb/pb"
 	"strconv"
 	"time"
 )

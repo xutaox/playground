@@ -3,7 +3,7 @@ package main
 import (
 	"context"
 	"fmt"
-	helloworld "playground/grpc/pb"
+	helloworld "playground/grpc/lb/pb"
 	"time"
 )
 

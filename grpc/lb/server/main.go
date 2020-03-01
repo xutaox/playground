@@ -8,7 +8,7 @@ import (
 	"net"
 	"os"
 	"os/signal"
-	"playground/grpc/pb"
+	"playground/grpc/lb/pb"
 	"syscall"
 	"time"
 )
