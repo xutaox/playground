@@ -20,7 +20,7 @@ func main() {
 			},
 		},
 	}
-	resp, err := client.Get("http://localhost:8972/")
+	resp, err := client.Get("http://localhost:8972")
 	if err != nil {
 		log.Fatal(fmt.Errorf("error making request: %v", err))
 	}
