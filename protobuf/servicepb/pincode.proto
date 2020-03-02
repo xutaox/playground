@@ -1,0 +1,31 @@
+syntax = "proto3"; // 只允许使用 proto3 , 不能用 proto2
+
+message TestA {
+    TestB nest = 1;
+    int64 num = 2;
+}
+
+message TestB {
+    int64 num = 1;
+    int64 num2 = 2;
+}
+
+message TestC {
+    TestD nest = 1;
+    int64 num = 2;
+}
+
+message TestD {
+    int64 num = 1;
+    int64 num2 = 2;
+    int64 num3 = 3;
+}
+
+message testOneof {
+    int64 num = 1;
+    oneof union {
+        int64 first = 2;
+        string second = 3;
+        fixed64 third = 4;
+    }
+}
