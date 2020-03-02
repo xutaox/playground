@@ -13,9 +13,7 @@ func ToJson(i interface{}) string {
 		if err != nil {
 			panic(err)
 		}
-		return "error"
 	}
 
 	return string(bytes)
-
 }
